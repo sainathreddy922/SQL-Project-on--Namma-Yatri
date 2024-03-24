@@ -1,1 +1,1 @@
-# SQL-Project-on--Namma-Yatri
+PROJECT ON Namma Yatri

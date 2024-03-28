@@ -1,4 +1,4 @@
-Project Name : Namma Yatri
+#Project Name : Namma Yatri
 
 I conducted a comprehensive case study on a dataset that contained information about all details of the Namma Yatri .The Dataset includes five main tables : trips,payment,duration,loc,trips_details4 .
 

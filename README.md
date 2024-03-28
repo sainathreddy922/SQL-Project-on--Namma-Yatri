@@ -1,6 +1,6 @@
 Project Name : Namma Yatri
 
-I conducted a comprehensive case study on a dataset that contained information about all Details of the Namma Yatri .The Dataset includes five main tables : trips,payment,duration,loc,trips_details4 .
+I conducted a comprehensive case study on a dataset that contained information about all details of the Namma Yatri .The Dataset includes five main tables : trips,payment,duration,loc,trips_details4 .
 
 Dataset Information
 
@@ -27,15 +27,15 @@ trips_details4: It is the combination of the 3 different trips_details.
 
 3.How can I retrieve the total number of earnings?
 
-4.which is the most used payment method ?
+4.Which is the most used payment method ?
 
 5.The highest payment was made through which instrument ?
 
-6.which two locations had the most trips?
+6.Which two locations had the most trips?
 
-7.top 5 earning drivers
+7.Top 5 earning drivers
 
-8.which duration had more trips?
+8.Which duration had more trips?
 
 9.Find the total completed trips and total searches ?
 
@@ -45,18 +45,18 @@ trips_details4: It is the combination of the 3 different trips_details.
 
 12.Find the total searches which got estimate,searches_got_quotes,searches_for_quotes ?
 
-13.which driver , customer pair had more orders?
+13.Which driver , customer pair had more orders?
 
-14.which area got highest trips in which duration ?
+14.Which area got highest trips in which duration ?
 
-15.which area got the highest fares, cancellations,trips ?
+15.Which area got the highest fares, cancellations,trips ?
 
-16.which duration got the highest trips and fares ?
+16.Which duration got the highest trips and fares ?
 
-17.which area got highest trips in which duration ?
+17.Which area got highest trips in which duration ?
 
 18.What is the quote acceptance rate , estimate to search for quote rates?
 
-19.what is quote to booking rate , booking cancellation rate
+19.What is quote to booking rate , booking cancellation rate
 
-20.Trips which are cancelled bt customers?
+20.Trips which are cancelled by customers?

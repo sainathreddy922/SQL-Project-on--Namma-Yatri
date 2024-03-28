@@ -1,10 +1,24 @@
 use namma;
+CREATE TABLE  trips(tripid integer,faremethod integer,fare integer,loc_from integer,loc_to integer,driverid integer,
+custid integer,distance integer,duration integer); 
+CREATE TABLE  trips_details1(tripid	integer,loc_from integer,searches integer,searches_got_estimate integer,searches_for_quotes integer,searches_got_quotes	integer,
+customer_not_cancelled	integer,driver_not_cancelled integer,otp_entered integer,end_ride integer); 
+CREATE TABLE  trips_details2(tripid	integer,loc_from integer,searches integer,searches_got_estimate integer,searches_for_quotes integer,searches_got_quotes	integer,
+customer_not_cancelled	integer,driver_not_cancelled integer,otp_entered integer,end_ride integer); 
+CREATE TABLE  trips_details3(tripid	integer,loc_from integer,searches integer,searches_got_estimate integer,searches_for_quotes integer,searches_got_quotes	integer,
+customer_not_cancelled	integer,driver_not_cancelled integer,otp_entered integer,end_ride integer); 
+CREATE TABLE  trips_details4 (tripid integer,loc_from integer,searches integer,searches_got_estimate integer,searches_for_quotes	integer,searches_got_quotes	integer
+,customer_not_cancelled integer,driver_not_cancelled integer,otp_entered	integer,end_ride integer);
+CREATE TABLE loc( id INT, assembly1 varchar(200)); 
+CREATE TABLE duration( id INT, duration varchar(200));
+CREATE TABLE payment( id INT, method varchar(200)); 
+
 select * from trips;
 select * from payment;
 select * from duration;
 select * from loc;
 select * from trips_details4 ;
-select * from trips_details4;
+
 
 -- 1 total trips
 select count(distinct tripid) as totaltrips from trips_details4;
